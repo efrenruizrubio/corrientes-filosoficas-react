@@ -1,0 +1,6 @@
+@use "/src/styles/variables.scss";
+
+.draggable {
+  border: 1px solid variables.$secondary-border-color;
+  border-radius: 1.5rem;
+}

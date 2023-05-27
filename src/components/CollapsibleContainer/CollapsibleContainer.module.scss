@@ -1,0 +1,8 @@
+@use "/src/styles/variables.scss";
+
+.section {
+  width: 100%;
+  &_title {
+    width: inherit;
+  }
+}

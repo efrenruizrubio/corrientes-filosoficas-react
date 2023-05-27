@@ -1,0 +1,13 @@
+.header {
+  width: 100%;
+  min-width: 320px;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &_logo {
+    width: 200px;
+    height: auto;
+  }
+  margin-bottom: 1rem;
+}

@@ -12,6 +12,7 @@ html {
 
 body {
   font-size: 1.6rem;
-  background-color: var(--primary-background-color);
-  color: var(--secondary-grey-color);
+  background-color: variables.$primary-background-color;
+  color: variables.$secondary-grey-color;
+  user-select: none;
 }

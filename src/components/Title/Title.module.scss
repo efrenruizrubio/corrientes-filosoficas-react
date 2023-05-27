@@ -1,0 +1,10 @@
+@use "/src/styles/variables.scss";
+
+.title {
+  width: 100%;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid;
+  text-align: center;
+  color: variables.$secondary-green-color;
+  cursor: pointer;
+}
