@@ -1,6 +1,14 @@
 @use "/src/styles/variables.scss";
 
 .draggable {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: 1px solid variables.$secondary-border-color;
   border-radius: 1.5rem;
+  padding: 1.5rem;
+  &_content {
+    text-align: center;
+  }
+  max-height: 200px;
 }

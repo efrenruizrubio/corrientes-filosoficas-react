@@ -1,6 +1,33 @@
 @use "/src/styles/variables.scss";
 
-.droppable {
+.main {
+  padding: 1rem;
   border: 1px solid variables.$secondary-border-color;
   border-radius: 1.5rem;
+  &_title {
+    border: none;
+    color: variables.$primary-blue-color;
+    cursor: default;
+  }
+  &_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    &_wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      &_title {
+        padding-bottom: 0.5rem;
+        border-color: variables.$secondary-border-color;
+        color: variables.$secondary-blue-color;
+        cursor: default;
+      }
+      &_droppable {
+        border: 1px solid variables.$secondary-border-color;
+        border-radius: 2rem;
+        min-height: 100px;
+      }
+    }
+  }
 }
